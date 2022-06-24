@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .second {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .subSecond {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
