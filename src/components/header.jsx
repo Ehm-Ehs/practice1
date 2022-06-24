@@ -1,4 +1,5 @@
 import "./header.css";
+<<<<<<< HEAD
 function Header() {
   return (
     <>
@@ -60,5 +61,14 @@ function Header() {
     </>
   );
 }
+=======
+
+function Header(){
+    return(
+        <>
+        </>
+    );
+};
+>>>>>>> 48bd5b9e6a678075a872bd442f7b54d150d86b53
 
 export default Header;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./footer.css";
 import Button from "./btn";
 import arrow from "../images/ar.svg";
@@ -266,3 +267,15 @@ function Footer() {
 }
 
 export default Footer;
+=======
+import ".footer.css";
+
+function Footer(){
+    return(
+        <>
+        </>
+    );
+};
+
+export default Footer;
+>>>>>>> 48bd5b9e6a678075a872bd442f7b54d150d86b53
