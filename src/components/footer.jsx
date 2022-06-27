@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer">
           <div className="sub1">
             <strong>
-              <p className="">Subscribe our Newsletter</p>
+              <p className="">Subscribe to Hectare to get updates on news, events and all things food & agriculture!</p>
             </strong>
           </div>
           <div className="foot">
@@ -17,7 +17,7 @@ function Footer() {
               <input
                 type="search"
                 placeholder="Enter your email address"
-                size="50"
+                size="60"
               />
             </strong>
             <div className="sub">

@@ -1,5 +1,5 @@
 import "./faqs.css";
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 function Faq() {
   const faqs = [
     {
@@ -77,7 +77,7 @@ function Faq() {
       
          {faqs.map((faq) => (
              <div className="faq-content" key= {faq.id}>
-                <button className="accordion"><strong> {faq.title}</strong></button>
+                <button className="accordion"><strong> {faq.title} <i class="material-icons">keyboard_arrow_down</i></strong></button>
                 <div className="panel"> <p><strong> {faq.body} </strong></p></div>
                
              </div>

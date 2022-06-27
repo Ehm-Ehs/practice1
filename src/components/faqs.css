@@ -27,3 +27,10 @@
     border: solid 1px rgba(226, 224, 224, 0);
     outline: none;
 }
+.accordion:before {
+    content: '&#xe313;'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
