@@ -1,15 +1,17 @@
 
 import './App.css';
-import Pics from './components/pic';
-import Header from './components/header';
-import Faq from './components/faqs';
-import Footer from './components/footer';
+import Pics from './faqComponents/pic';
+import Header from './faqComponents/header';
+import Faq from './faqComponents/faqs';
+import Footer from './faqComponents/footer';
+import Tab from './faqComponents/tab';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Pics/>
+      <Tab/>
       <Faq/>
       <Footer/>
     </div>

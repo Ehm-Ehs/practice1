@@ -1,0 +1,7 @@
+.tab{
+    display:flex;
+    justify-content: left;
+    padding: 30px 10px;
+    color: #7A7A7A;
+    border-bottom:1px solid #7A7A7A;
+}

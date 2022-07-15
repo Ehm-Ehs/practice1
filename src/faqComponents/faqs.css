@@ -1,0 +1,53 @@
+.faqs{
+    padding-left: 40px;
+    
+}
+.faq{
+    text-align: center;
+    padding: 20px;
+}
+
+.headings{
+    padding-bottom: 20px;
+}
+
+.info{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+.link-green{
+    text-decoration: none;
+    color: #48a928;
+}
+
+.writeupHeading{
+    color:#48a928;
+    }
+
+.write{
+    font-size: 16px;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px rgba(226, 224, 224, 0);
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.paging{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: #7a7a7a;
+}
+

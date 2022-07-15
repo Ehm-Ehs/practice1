@@ -1,5 +1,33 @@
 import "./header.css";
+import down from "../images/down.svg";
 function Header() {
+  const headings = [
+    {
+      title: "About Us",
+      src: down,
+      id: 1,
+    },
+    {
+      title: "Our Work",
+      src: down,
+      id: 2,
+    },
+    {
+      title: "Our Impact",
+      src: down,
+      id: 3,
+    },
+    {
+      title: "Our Resources",
+      src: down,
+      id: 4,
+    },
+    {
+      title: "Contact Us",
+      src: down,
+      id: 5,
+    },
+  ];
   return (
     <>
       <div className="header">
@@ -70,33 +98,17 @@ function Header() {
           </svg>
         </div>
         <div className="second">
-          <div className="subSecond">
-            <a href="#" className="links ">
-              About Us
-            </a>
-          </div>
-          <div className="subSecond">
-            <a href="#" className="links">
-              Our Work
-            </a>
-          </div>
-          <div className="subSecond">
-            <a href="#" className="links">
-              Our Impact
-            </a>
-          </div>
-          <div className="subSecond">
-            <a href="#" className="links">
-              Resources
-            </a>
-          </div>
-          <div className="subSecond">
-            <a href="#" className="links">
-              Contact Us
-            </a>
-          </div>
-          <div className="subSecond">
-            <a href="#" className="links">
+          {headings.map((heading) => (
+            <div className="subSecond" key={heading.id}>
+              <a href="#" className="link">
+                {heading.title}
+              </a>
+              <img src={heading.src} alt="icon" />
+            </div>
+          ))}
+
+          <div className="search">
+            <a href="#" className="link">
               <svg
                 width="44"
                 height="45"

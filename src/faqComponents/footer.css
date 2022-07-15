@@ -1,3 +1,5 @@
+
+
 .sub {
     padding: 5px;
   }
@@ -13,6 +15,23 @@
     padding: 25px 0;
   }
   
+  .dark{
+    background-color: black;
+    color: white;
+  }
+  
+  li{
+    padding: 5px;
+  }
+
+  .footertype{
+    border-radius: 5px;
+       height: 45px;
+  }
+  
+  .subtext{
+    font-size: 32px;
+  }
 
   
   ul {
@@ -22,16 +41,24 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #606060;
-    padding: 40px 25px;
+    /* border-top: 1px solid #606060; */
+    padding: 40px 40px;
     background-color: black;
     color: white;
+    
   }
+
+ .svg{
+  padding-right: 10px;
+ }
   
   .footerlist {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: left;
+    font-size: 16px ;
+    padding: 0 40px;
+   
   }
   
   .footerdown {
@@ -51,14 +78,19 @@
   
   .listed {
     padding-left: 20px;
+    font-size: 16px;
+   
   }
   
   .list-heading {
     padding: 5px 0px;
+    font-size: 14px;
+    padding-bottom: 35px;
   }
   
   .info {
     padding-top: 20px;
+    font-size: 16px;
   }
   
   .footercontent {
